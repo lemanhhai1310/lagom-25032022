@@ -1,3 +1,43 @@
+@font-face{
+  font-family:'Athiti Regular';
+  font-display: auto;
+  src:local('Athiti Regular'), url('fonts/Athiti-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Modern Regular';
+  font-display: auto;
+  src:local('Modern Regular'), url('fonts/modern_regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
+ * HelveticaNeue
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Helvetica Neue Bold';
+  font-display: auto;
+  src:local('Helvetica Neue Bold'), url('fonts/HelveticaNeue/HelveticaNeue-Bold.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Helvetica Neue Medium';
+  font-display: auto;
+  src:local('Helvetica Neue Medium'), url('fonts/HelveticaNeue/HelveticaNeue-Medium.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Helvetica Neue Regular';
+  font-display: auto;
+  src:local('Helvetica Neue Regular'), url('fonts/HelveticaNeue/HelveticaNeue.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
 /**
  * --------------------------------------------------------------------
  * Arial

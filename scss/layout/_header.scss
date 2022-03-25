@@ -1,0 +1,54 @@
+.header{
+  @include media-breakpoint-up('m'){
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &__logo{
+    img{
+      height: 46px;
+      @include media-breakpoint-up('m'){
+        height: 56px;
+      }
+    }
+  }
+  &__menu{
+    color: #020202;
+    font-family: $font-HelveticaNeue-Medium;
+  }
+  .uk-navbar-nav{
+    >li{
+      >a{
+        @extend .fz-22;
+        color: #020202;
+        font-family: $font-HelveticaNeue-Bold;
+      }
+    }
+  }
+  &__lang{
+    @extend .fz-23;
+    color: #020202;
+    font-family: $font-HelveticaNeue-Medium;
+    span{
+      &:first-child{
+
+      }
+    }
+    .uk-icon{
+
+    }
+  }
+  &__bag{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    canvas{
+      width: 24px;
+    }
+    &__txt{
+      background: #ddb142;
+      color: #020202 !important;
+      bottom: -4px;
+      right: -5px;
+    }
+  }
+}
