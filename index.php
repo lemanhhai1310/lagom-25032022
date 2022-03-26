@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="uk-width-expand">
-                <div uk-slider>
+                <div class="home__section2__slider" uk-slider>
 
                     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 

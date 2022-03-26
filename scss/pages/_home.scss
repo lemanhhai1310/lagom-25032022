@@ -8,10 +8,24 @@
 }
 .home{
   &__section2{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    @include media-breakpoint-up('m'){
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
     .uk-container{
       @include media-breakpoint-up('m'){
         padding-right: 0;
         max-width: calc(50% + (1400px / 2) - 20px);
+      }
+    }
+    &__slider{
+      margin-left: -15px;
+      margin-right: -15px;
+      @include media-breakpoint-up('m'){
+        margin-left: 0;
+        margin-right: 0;
       }
     }
     &__boxLeft{
