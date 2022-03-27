@@ -22,7 +22,7 @@
 <?php require "template-parts/commons/facebook_chat.php"; ?>
 <!--app-->
 <div id="app" class="uk-height-viewport uk-background-norepeat uk-background-top-center uk-offcanvas-content uk-overflow-hidden uk-position-relative" data-src="<?= (isset($bg))?$bg:'' ?>" uk-img>
-<div class="header">
+<div class="header" uk-sticky>
     <div class="uk-container uk-container-large uk-padding-remove">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-left">

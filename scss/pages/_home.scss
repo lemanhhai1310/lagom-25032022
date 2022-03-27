@@ -7,6 +7,12 @@
   border-top-right-radius: 0;
 }
 .home{
+  &__section3{
+    &__txt{
+      @extend .fz-60;
+      font-family: $font-modern_regular;
+    }
+  }
   &__section2{
     padding-top: 0px;
     padding-bottom: 20px;

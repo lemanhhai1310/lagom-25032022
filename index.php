@@ -22,7 +22,7 @@
             <div class="uk-width-expand">
                 <div class="home__section1__video uk-cover-container home__section1__radius" uk-toggle="cls: uk-border-pill; mode: media; media: @m">
                     <canvas width="1920" height="1080"></canvas>
-                    <video uk-toggle="cls: uk-border-pill; mode: media; media: @m" class="home__section1__radius uk-position-center block-video_video" autoplay="" loop="" muted="" playsinline="" poster="images/bg-video.png">
+                    <video uk-toggle="cls: uk-border-pill; mode: media; media: @m" class="home__section1__radius uk-position-center block-video_video" autoplay="" loop="" muted="" playsinline="" poster="">
                         <source src="videos/spark_vision_video_2018052113.webm" type="video/webm">
                         <source src="videos/spark_vision_video_2018052113.mp4" type="video/mp4">
                     </video>
@@ -59,11 +59,29 @@
                 </div>
             </div>
             <div class="uk-width-expand">
-                <div class="home__section2__slider" uk-slider>
+                <div class="home__section2__slider" uk-slider="autoplay: true">
 
                     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
                         <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-auto@s">
+                            <li>
+                                <div class="uk-cover-container">
+                                    <img src="images/project11.png" alt="" uk-cover="">
+                                    <canvas width="357" height="476"></canvas>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-cover-container">
+                                    <img src="images/project1.png" alt="" uk-cover="">
+                                    <canvas width="357" height="476"></canvas>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-cover-container">
+                                    <img src="images/project2.png" alt="" uk-cover="">
+                                    <canvas width="357" height="476"></canvas>
+                                </div>
+                            </li>
                             <li>
                                 <div class="uk-cover-container">
                                     <img src="images/slider1.jpeg" alt="" uk-cover="">
@@ -136,6 +154,19 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div uk-parallax="bgy: -50" class="home__section3 uk-light uk-section uk-background-center-center uk-background-norepeat uk-background-cover" data-src="images/bg1.png" uk-img>
+    <div class="uk-container">
+        <div uk-parallax="y: 100,0" class="uk-text-center home__section3__txt">
+            Thổi hồn cho sự tinh tế <br class="uk-visible@m">
+            vào bên trong những thiết kế
+        </div>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container">
+
     </div>
 </div>
 <?php require "template-parts/layouts/footer.php"; ?>
