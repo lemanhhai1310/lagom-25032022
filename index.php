@@ -164,9 +164,53 @@
         </div>
     </div>
 </div>
+<!--Quy trình làm việc-->
 <div class="uk-section">
     <div class="uk-container">
 
     </div>
 </div>
+<!--/Quy trình làm việc-->
+
+<!--Đăng ký để nhận tư vấn-->
+<div class="uk-section home__section4">
+    <div class="uk-container uk-container-small">
+        <div class="home__section4__item">
+            <div class="uk-text-center uk-text-uppercase home__section4__title">Đăng ký để nhận tư vấn</div>
+        </div>
+        <div class="home__section4__item">
+            <div class="uk-grid-small" uk-grid>
+                <div class="uk-width-1-3@s">
+                    <div class="uk-inline uk-width-1-1">
+                        <span class="uk-form-icon" uk-icon="icon: user"></span>
+                        <input class="uk-input home__section4__input" type="text" placeholder="Họ và Tên">
+                    </div>
+                </div>
+                <div class="uk-width-1-3@s">
+                    <div class="uk-inline uk-width-1-1">
+                        <span class="uk-form-icon" uk-icon="icon: receiver"></span>
+                        <input class="uk-input home__section4__input" type="text" placeholder="Số điện thoại">
+                    </div>
+                </div>
+                <div class="uk-width-1-3@s">
+                    <div class="uk-inline uk-width-1-1">
+                        <span class="uk-form-icon" uk-icon="icon: mail"></span>
+                        <input class="uk-input home__section4__input" type="text" placeholder="Email">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home__section4__item">
+            <div class="uk-grid-small" uk-grid>
+                <div class="uk-width-1-1">
+                    <input class="uk-input home__section4__input uk-padding-remove-left uk-padding-remove-right" type="text" placeholder="Nhập nội dung cần tư vấn">
+                </div>
+            </div>
+        </div>
+        <div class="home__section4__item uk-text-center">
+            <button class="uk-button uk-button-default home__section4__btn"><span>Gửi</span></button>
+        </div>
+    </div>
+</div>
+<!--/Đăng ký để nhận tư vấn-->
 <?php require "template-parts/layouts/footer.php"; ?>

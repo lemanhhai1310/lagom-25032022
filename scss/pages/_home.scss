@@ -7,6 +7,42 @@
   border-top-right-radius: 0;
 }
 .home{
+  &__section4{
+    background-color: #f4f4f4;
+    &__title{
+      @extend .fz-60;
+      color: #ddb142;
+      font-family: $font-HelveticaNeue-Medium;
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 20px;
+        @include media-breakpoint-up('m'){
+          margin-top: 40px;
+        }
+      }
+    }
+    &__input{
+      @extend .fz-32;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      border-color: #626262;
+      background-color: transparent !important;
+    }
+    &__btn{
+      background: #ddb142;
+      border-color: #ddb142;
+      color: #ffffff;
+      $x:50px;
+      @include media-breakpoint-up('m'){
+        line-height: calc(#{$x} - 2px);
+      }
+      span{
+        @extend .fz-28;
+      }
+    }
+  }
   &__section3{
     &__txt{
       @extend .fz-60;
