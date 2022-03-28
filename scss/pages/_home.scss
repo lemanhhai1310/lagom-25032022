@@ -7,8 +7,82 @@
   border-top-right-radius: 0;
 }
 .home{
+  &__section6{
+    background: #f6f6f6;
+    .uk-container-expand-left{
+      @include media-breakpoint-up('m'){
+        padding-left: 0;
+        max-width: calc(50% + (1400px / 2) - 20px);
+      }
+    }
+    &__txt1{
+      @extend .fz-60;
+      color: #ddb142;
+      line-height: 1.11;
+      font-family: $font-HelveticaNeue-Bold;
+    }
+    &__txt2{
+      font-family: $font-HelveticaNeue-Bold;
+      @extend .fz-45;
+      color: #020202;
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 30px;
+        @include media-breakpoint-up('m'){
+          margin-top: 100px;
+        }
+      }
+    }
+    &__box1{
+      border-radius: 4px;
+      box-shadow: 0px 7px 8px 2px rgba(41, 41, 41, 0.25);
+      &__body{
+        @include media-breakpoint-up('m'){
+          padding: 20px;
+        }
+        &__rotate{
+          @include media-breakpoint-up('m'){
+            //top: 15px;
+            //height: -webkit-max-content;
+            //left: -5px;
+            //position: absolute;
+            //transform: scale(-1) translate(-50%, 50%);
+          }
+          transform: rotate(-180deg);
+          writing-mode: vertical-lr;
+        }
+        &__txt1{
+          color: #000;
+          @extend .fz-18;
+          text-transform: uppercase;
+          font-family: $font-HelveticaNeue-Bold;
+        }
+        &__txt2{
+          color: #000;
+          @extend .fz-18;
+        }
+        &__price{
+          color: #000;
+          @extend .fz-18;
+          font-family: $font-HelveticaNeue-Bold;
+        }
+      }
+    }
+  }
+  &__section5{
+    @include media-breakpoint-up('m'){
+      min-height: 300px;
+    }
+    &__title{
+      @extend .fz-60;
+      font-family: $font-modern_regular;
+      color: #020202;
+    }
+  }
   &__section4{
     background-color: #f4f4f4;
+    box-shadow: 0px 10px 15px 0 rgba(90, 90, 90, 0.2);
     &__title{
       @extend .fz-60;
       color: #ddb142;
@@ -20,6 +94,14 @@
         @include media-breakpoint-up('m'){
           margin-top: 40px;
         }
+      }
+    }
+    &__icon{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 55%;
+      svg{
+        opacity: 0;
       }
     }
     &__input{

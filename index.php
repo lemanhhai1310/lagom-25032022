@@ -158,7 +158,7 @@
 </div>
 <div uk-parallax="bgy: -50" class="home__section3 uk-light uk-section uk-background-center-center uk-background-norepeat uk-background-cover" data-src="images/bg1.png" uk-img>
     <div class="uk-container">
-        <div uk-parallax="y: 100,0" class="uk-text-center home__section3__txt">
+        <div uk-parallax="y: 50,0" class="uk-text-center home__section3__txt">
             Thổi hồn cho sự tinh tế <br class="uk-visible@m">
             vào bên trong những thiết kế
         </div>
@@ -174,7 +174,7 @@
 
 <!--Đăng ký để nhận tư vấn-->
 <div class="uk-section home__section4">
-    <div class="uk-container uk-container-small">
+    <div class="uk-container">
         <div class="home__section4__item">
             <div class="uk-text-center uk-text-uppercase home__section4__title">Đăng ký để nhận tư vấn</div>
         </div>
@@ -182,19 +182,19 @@
             <div class="uk-grid-small" uk-grid>
                 <div class="uk-width-1-3@s">
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon" uk-icon="icon: user"></span>
+                        <span class="uk-form-icon home__section4__icon" data-src="images/User-icon.png" uk-img uk-icon="icon: user"></span>
                         <input class="uk-input home__section4__input" type="text" placeholder="Họ và Tên">
                     </div>
                 </div>
                 <div class="uk-width-1-3@s">
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon" uk-icon="icon: receiver"></span>
+                        <span class="uk-form-icon home__section4__icon" data-src="images/Phone-icon.png" uk-img uk-icon="icon: receiver"></span>
                         <input class="uk-input home__section4__input" type="text" placeholder="Số điện thoại">
                     </div>
                 </div>
                 <div class="uk-width-1-3@s">
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon" uk-icon="icon: mail"></span>
+                        <span class="uk-form-icon home__section4__icon" data-src="images/Email-icon.png" uk-img uk-icon="icon: mail"></span>
                         <input class="uk-input home__section4__input" type="text" placeholder="Email">
                     </div>
                 </div>
@@ -213,4 +213,188 @@
     </div>
 </div>
 <!--/Đăng ký để nhận tư vấn-->
+<div uk-parallax="bgy: -10" class="uk-section home__section5 uk-flex uk-flex-middle uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/bg2.png" uk-img>
+    <div class="uk-width-1-1">
+        <div class="uk-container uk-container-small">
+            <div uk-parallax="y: 50,0" class="home__section5__title">
+                Nội thất <br>
+                sang trọng
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section home__section6">
+    <div class="home__section6__item">
+        <div class="uk-container uk-container-large uk-container-expand-left">
+            <div uk-grid>
+                <div class="uk-width-auto@m uk-flex-last@m">
+                    <div class="home__section6__txt1">Sản phẩm <br>
+                        bán chạy</div>
+                    <div class="home__section6__txt2">Best sale products</div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="uk-grid-small uk-grid-30-m uk-grid-match" uk-grid>
+                        <div class="uk-width-2-5@s uk-width-1-2">
+                            <div class="home__section6__box1 uk-cover-container uk-box-shadow-large">
+                                <img src="images/s1.png" alt="" uk-cover="">
+                                <canvas width="489" height="479"></canvas>
+                                <div class="home__section6__box1__body uk-padding-small uk-position-bottom">
+                                    <div class="uk-flex-bottom" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="home__section6__box1__body__rotate">
+                                                <div class="home__section6__box1__body__txt2">A Swivel office chair</div>
+                                                <div class="home__section6__box1__body__txt1">Dante</div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="home__section6__box1__body__price">600.000 VND</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="home__section6__box1 uk-cover-container uk-box-shadow-large">
+                                <img src="images/ix1.png" alt="" uk-cover="">
+                                <canvas width="714" height="479"></canvas>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+                        <div class="uk-width-3-5@s uk-width-1-2">
+                            <div class="home__section6__box1 uk-cover-container uk-box-shadow-large">
+                                <img src="images/ix2.png" alt="" uk-cover="">
+                                <canvas width="714" height="479"></canvas>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="home__section6__box1 uk-cover-container uk-box-shadow-large">
+                                <img src="images/s2.png" alt="" uk-cover="">
+                                <canvas width="489" height="479"></canvas>
+                                <div class="home__section6__box1__body uk-padding-small uk-position-bottom">
+                                    <div class="uk-flex-bottom" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="home__section6__box1__body__rotate">
+                                                <div class="home__section6__box1__body__txt2">A Swivel office chair</div>
+                                                <div class="home__section6__box1__body__txt1">Dante</div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="home__section6__box1__body__price">600.000 VND</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home__section6__item">
+        <div class="home__section6__txt1 uk-text-center">Sản phẩm mới</div>
+        <div class="home__section6__txt2 uk-text-center">New products</div>
+    </div>
+    <div class="home__section6__item">
+        <div uk-slider="center: true">
+
+            <div class="uk-position-relative">
+
+                <div class="uk-slider-container uk-light uk-slider-container-offset">
+                    <ul class="uk-slider-items uk-grid-30-m uk-grid-small" uk-grid>
+                        <?php
+                        $data = array(
+                            array(
+                                'src' => 'images/sp2.png',
+                                'txt1' => 'Kitsch',
+                                'txt2' => 'A dining chair',
+                                'price' => '',
+                            ),
+                            array(
+                                'src' => 'images/sp3.png',
+                                'txt1' => 'Lars',
+                                'txt2' => 'A dining chair',
+                                'price' => '',
+                            ),
+                            array(
+                                'src' => 'images/sp4.png',
+                                'txt1' => 'Elona',
+                                'txt2' => 'A mid boy',
+                                'price' => '',
+                            ),
+                            array(
+                                'src' => 'images/slider1.jpeg',
+                                'txt1' => 'Elona',
+                                'txt2' => 'A mid boy',
+                                'price' => '',
+                            ),
+                            array(
+                                'src' => 'images/slider2.jpeg',
+                                'txt1' => 'Elona',
+                                'txt2' => 'A mid boy',
+                                'price' => '',
+                            ),
+                            array(
+                                'src' => 'images/slider3.jpeg',
+                                'txt1' => 'Elona',
+                                'txt2' => 'A mid boy',
+                                'price' => '',
+                            ),
+                            array(
+                                'src' => 'images/slider4.jpeg',
+                                'txt1' => 'Elona',
+                                'txt2' => 'A mid boy',
+                                'price' => '',
+                            ),
+                            array(
+                                'src' => 'images/slider5.jpeg',
+                                'txt1' => 'Elona',
+                                'txt2' => 'A mid boy',
+                                'price' => '',
+                            ),
+                        );
+                        foreach ($data as $k=>$v): ?>
+                        <li class="uk-width-auto@m uk-width-3-5">
+                            <div class="home__section6__box1 uk-cover-container uk-box-shadow-large">
+                                <img src="<?= $v['src'] ?>" alt="" uk-cover="">
+                                <canvas width="451" height="583"></canvas>
+                                <div class="home__section6__box1__body uk-padding-small uk-position-bottom">
+                                    <div class="uk-flex-bottom" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="home__section6__box1__body__rotate">
+                                                <div class="home__section6__box1__body__txt2"><?= $v['txt2'] ?></div>
+                                                <div class="home__section6__box1__body__txt1"><?= $v['txt1'] ?></div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="home__section6__box1__body__price">600.000 VND</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+
+                <div class="uk-hidden@s uk-light">
+                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+                <div class="uk-visible@s">
+                    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+            </div>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+    </div>
+</div>
 <?php require "template-parts/layouts/footer.php"; ?>
