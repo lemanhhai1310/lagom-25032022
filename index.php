@@ -156,7 +156,7 @@
         </div>
     </div>
 </div>
-<div uk-parallax="bgy: -50" class="home__section3 uk-light uk-section uk-background-center-center uk-background-norepeat uk-background-cover" data-src="images/bg1.png" uk-img>
+<div uk-parallax="bgy: -50" class="home__section3 uk-overflow-hidden uk-light uk-section uk-background-center-center uk-background-norepeat uk-background-cover" data-src="images/bg1.png" uk-img>
     <div class="uk-container">
         <div uk-parallax="y: 50,0" class="uk-text-center home__section3__txt">
             Thổi hồn cho sự tinh tế <br class="uk-visible@m">
@@ -166,9 +166,9 @@
 </div>
 <!--Quy trình làm việc-->
 <div class="uk-section">
-    <div class="uk-container">
+    <div class="home__section6__txt1 uk-text-center">Quy trình làm việc</div>
+    <div class="home__section6__txt2 uk-text-center">Our work process</div>
 
-    </div>
 </div>
 <!--/Quy trình làm việc-->
 
@@ -213,7 +213,7 @@
     </div>
 </div>
 <!--/Đăng ký để nhận tư vấn-->
-<div uk-parallax="bgy: -10" class="uk-section home__section5 uk-flex uk-flex-middle uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/bg2.png" uk-img>
+<div uk-parallax="bgy: -10" class="uk-section uk-overflow-hidden home__section5 uk-flex uk-flex-middle uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/bg2.png" uk-img>
     <div class="uk-width-1-1">
         <div class="uk-container uk-container-small">
             <div uk-parallax="y: 50,0" class="home__section5__title">
@@ -223,7 +223,7 @@
         </div>
     </div>
 </div>
-<div class="uk-section home__section6">
+<div class="uk-section-large home__section6">
     <div class="home__section6__item">
         <div class="uk-container uk-container-large uk-container-expand-left">
             <div uk-grid>
@@ -356,7 +356,7 @@
                             ),
                         );
                         foreach ($data as $k=>$v): ?>
-                        <li class="uk-width-auto@m uk-width-3-5">
+                        <li class="uk-width-auto@m uk-width-4-5">
                             <div class="home__section6__box1 uk-cover-container uk-box-shadow-large">
                                 <img src="<?= $v['src'] ?>" alt="" uk-cover="">
                                 <canvas width="451" height="583"></canvas>
@@ -397,4 +397,5 @@
         </div>
     </div>
 </div>
+
 <?php require "template-parts/layouts/footer.php"; ?>
