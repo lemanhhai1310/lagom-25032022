@@ -1,0 +1,70 @@
+.footer{
+  &__box{
+    background-color: #b6b6b6;
+  }
+  &__box2{
+    >*{
+      &:nth-child(n+2){
+        margin-top: 15px;
+        @include media-breakpoint-up('m'){
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+  &__box1{
+    padding: 20px;
+    @include media-breakpoint-up('m'){
+      padding: 40px;
+    }
+    &__map{
+      padding-left: 25px;
+      position: relative;
+      @extend .fz-30;
+      color: #020202;
+      font-family: $font-HelveticaNeue-Regular;
+      &:before{
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 16px;
+        padding-top: 160%;
+        background: url("images/Artwork39.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+      }
+    }
+    &__txt{
+      @extend .fz-48;
+      color: #020202;
+      font-family: $font-HelveticaNeue-Bold;
+    }
+    &__phone{
+      @extend .fz-35;
+      color: #020202;
+      font-family: $font-HelveticaNeue-Bold;
+      position: relative;
+      padding-left: 38px;
+      @include media-breakpoint-up('m'){
+        padding-left: 45px;
+      }
+      &:before{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 30px;
+        @include media-breakpoint-up('m'){
+          width: 36px;
+        }
+        padding-top: 100%;
+        background: url("images/Phoneicon.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+      }
+    }
+  }
+}
